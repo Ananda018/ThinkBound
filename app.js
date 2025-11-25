@@ -23,5 +23,5 @@ app.use("/api/v1",cart)
 app.use("/api/v1",order)
 
 app.listen(process.env.PORT,()=>{
-    console.log(`Server Started at port ${process.env.PORT}`)
+    console.log(`Server Started at port http://localhost:${process.env.PORT}`)
 })
